@@ -1,0 +1,24 @@
+{
+  "name": "gatherme-ldap-server",
+  "version": "1.0.0",
+  "description": "LDAP server for autentication protocol in gatherme app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idsolanov/LDAP.git"
+  },
+  "author": "Ivan Dario Solano Velasquez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/idsolanov/LDAP/issues"
+  },
+  "homepage": "https://github.com/idsolanov/LDAP#readme",
+  "dependencies": {
+    "ldapjs": "^1.0.2",
+    "nodemon": "^2.0.4"
+  }
+}
